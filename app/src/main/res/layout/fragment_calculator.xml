@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculatorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/maxBt"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Waga"
+        android:width="150dp"
+        android:height="55dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/caloryBt"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="Kalorie"
+        android:width="150dp"
+        android:height="55dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/sylBt"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="105dp"
+
+        android:width="150dp"
+        android:height="55dp"
+        android:text="Sylwetka"
+
+        android:textSize="18sp" />
+
+</FrameLayout>

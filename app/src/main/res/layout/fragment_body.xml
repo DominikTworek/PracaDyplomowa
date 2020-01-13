@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BodyFragment">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:background="#DB53F1"
+        android:checkedButton="@+id/lydkaRb"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/lydkaRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Łydka" />
+
+        <RadioButton
+            android:id="@+id/udoRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Udo" />
+
+        <RadioButton
+            android:id="@+id/biodraRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biodra" />
+
+        <RadioButton
+            android:id="@+id/pasRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pas" />
+
+        <RadioButton
+            android:id="@+id/taliaRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Talia" />
+
+        <RadioButton
+            android:id="@+id/klatkaRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Klatka" />
+
+        <RadioButton
+            android:id="@+id/karkRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kark" />
+
+        <RadioButton
+            android:id="@+id/bicepsRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biceps" />
+
+        <RadioButton
+            android:id="@+id/przedramieRb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Przedramię" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="110dp"
+        android:background="#DB53F1"
+        >
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:textSize="20sp"
+            android:text="ID"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:textSize="20sp"
+            android:text="Data"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="2dp"
+            android:gravity="end"
+            android:textSize="20sp"
+            android:text="cm"
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/body_recyclerView"
+        android:layout_width="288dp"
+        android:layout_height="254dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:textSize="35sp" />
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChartBody"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="20dp" />
+</FrameLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:contentPadding="3dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/bodyIdTv"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/bodyDateTv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Data dodania"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/bodyValueTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:text="cm"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

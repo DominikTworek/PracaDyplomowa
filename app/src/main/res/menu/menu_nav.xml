@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profil"
+        android:icon="@drawable/ic_profile_black"/>
+    <item
+        android:id="@+id/nav_exercises"
+        android:title="Ćwiczenia"
+        android:icon="@drawable/ic_exercises_black"/>
+    <item
+        android:id="@+id/nav_workout"
+        android:title="Sylwetka"
+        android:icon="@drawable/ic_workout_black"/>
+    <item
+        android:id="@+id/nav_calculator"
+        android:title="Pomiary"
+        android:icon="@drawable/ic_calculator_black"/>
+</menu>

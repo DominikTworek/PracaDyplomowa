@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MoniGym</string>
+    <string name="logout">Logout</string>
+    <string name="haslo">Hasło</string>
+    <string name="email">Email</string>
+    <string name="rejestruj">Rejestruj</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="nie_masz_konta_zarejestruj">Nie masz konta? Zarejestruj</string>
+</resources>

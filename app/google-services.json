@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "420048855656",
+    "firebase_url": "https://pracadyplomowa-a2d7d.firebaseio.com",
+    "project_id": "pracadyplomowa-a2d7d",
+    "storage_bucket": "pracadyplomowa-a2d7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420048855656:android:8584aff3e3171c0b8111dd",
+        "android_client_info": {
+          "package_name": "com.example.pracadyplomowa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420048855656-vdg5hdf1rbj595nn9m5te90ec1g8r5n1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pracadyplomowa",
+            "certificate_hash": "77f9569b76dd86fe0d645d61ea0dee37c541645c"
+          }
+        },
+        {
+          "client_id": "420048855656-jaqlrqdhctokhkklr7caq4fb8a26j4ts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pracadyplomowa",
+            "certificate_hash": "cb054081bb1781a079ec4b5cc41bf842cd26fa2b"
+          }
+        },
+        {
+          "client_id": "420048855656-14i0m5s1mrvccr2jrnscm719a247ghvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOBODjPQ_VySX1Tt-nWLIKQ3yT3HESalQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420048855656-14i0m5s1mrvccr2jrnscm719a247ghvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

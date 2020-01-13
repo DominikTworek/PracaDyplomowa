@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDECF6"
+    tools:context=".ExercisesActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarExercise"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/exerciseIv"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_exercises_white"
+            app:c_background_color="@color/colorPrimaryDark"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/nameExeTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nazwa ćwiczenia"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/typeExeTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Typ ćwiczenia"
+                android:textColor="@color/colorWhite"
+
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="70dp"
+        app:cardBackgroundColor="#FDE1F5"
+        >
+
+        <TextView
+            android:id="@+id/instructionTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/AddExerciseBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:text="Dodaj Serie"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="430dp"
+        android:minWidth="140dp"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Max:"
+            android:textSize="25sp"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/exerciseMaxTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0kg"
+            android:textSize="25sp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/colorPrimaryLight"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        >
+        <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        />
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="Serie"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Powtórzenia"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Waga"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            />
+
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/workout_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:textSize="35sp"
+        android:gravity="center"
+        />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#e2deff"
+    tools:context=".WeightFragment">
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="320dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/weights_recyclerView"
+        android:layout_marginTop="368dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="Weights" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAX:"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="330dp"
+        />
+    <TextView
+        android:id="@+id/maxWeightTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginStart="50dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="330dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=":NIM"
+        android:gravity="right"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="330dp"
+        />
+    <TextView
+        android:id="@+id/minWeightTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginEnd="45dp"
+        android:gravity="right"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="330dp"
+        />
+
+
+</androidx.cardview.widget.CardView>
